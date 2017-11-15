@@ -1,0 +1,21 @@
+{
+  "name": "stdlib-chromeless",
+  "version": "0.0.0",
+  "description": "",
+  "author": "bobby <bobbijvoet@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "chromeless": "^1.3.0"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "bobby/chromeless",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
